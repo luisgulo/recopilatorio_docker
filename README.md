@@ -11,7 +11,7 @@ Recopilatorio de Utilidades, Herramientas y documentacion para Docker
 <!-- TOC -->
 
 - [Leyenda](#leyenda)
-- [Qué es Docker](#que-es-docker)
+- [Que es Docker](#que-es-docker)
 - [Where to start](#where-to-start)
 - [Where to start (Windows)](#where-to-start-windows)
 - [Projects](#projects)
@@ -76,7 +76,7 @@ Recopilatorio de Utilidades, Herramientas y documentacion para Docker
 - Beta :construction:
 - De Pago :heavy_dollar_sign:
 
-# Qué es Docker
+# Que es Docker
 
 > Docker es una plataforma abierta para desarrolladores y administradores de sistemas para crear, enviar y ejecutar aplicaciones distribuidas. Con Docker Engine, una herramienta de empaquetado y tiempo de ejecución portátil y liviana, y Docker Hub, un servicio en la nube para compartir aplicaciones y automatizar flujos de trabajo, Docker permite que las aplicaciones se ensamblen rápidamente a partir de componentes y elimina la fricción entre los entornos de desarrollo, control de calidad y producción. Como resultado, TI puede enviar más rápido y ejecutar la misma aplicación, sin cambios, en computadoras portátiles, máquinas virtuales de centros de datos y cualquier nube.
 
