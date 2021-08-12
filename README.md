@@ -1,32 +1,16 @@
-# recopilatorio_docker
+# Recopilatorio Docker
 Recopilatorio de Utilidades, Herramientas y documentacion para Docker
 
 
+> Una lista de herramientas y recursos para usar con Docker
 
-# Awesome Docker [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)][sindresorhus] [![Netlify Status](https://api.netlify.com/api/v1/badges/8ca86717-11ba-46d4-9d0a-700d8527f13b/deploy-status)](https://app.netlify.com/sites/awesome-docker/deploys)<!-- omit in toc -->
 
-> A curated list of Docker resources and projects
 
-If you would like to contribute, please read [CONTRIBUTING.md][contributing] first.
-It contains a lot of tips and guidelines to help keep things organized.
-Just click [README.md][editreadme] to submit a [pull request][editreadme].
-If this list is not complete, you can [contribute][editreadme] to make it so. Here is a great video tutorial to learn how to [contribute on Github](https://egghead.io/lessons/javascript-identifying-how-to-contribute-to-an-open-source-project-on-github).
-
-**_You can see the updates on [TWITTER](https://twitter.com/awesome_docker)_**
-
-> **Please**, help organize these resources so that they are _easy to find_ and _understand_ for newcomers. See how to **[Contribute][contributing]** for tips!
-
-**_If you see a link here that is not (any longer) a good fit, you can fix it by submitting a [pull request][editreadme] to improve this file. Thank you!_**
-
-The creators and maintainers of this list do not receive any form of payment to accept a change made by any contributor. This page is not an official Docker product in any way. It is a list of links to projects and is maintained by volunteers. Everybody is welcome to contribute. The goal of this repo is to index open-source projects, not to advertise for profit.
-
-All the links are monitored and tested with a home baked [Node.js script](https://github.com/veggiemonk/awesome-docker/blob/master/pull_request.js)
-
-# Contents <!-- omit in toc -->
+# Contenido/Indice <!-- omit in toc -->
 
 <!-- TOC -->
 
-- [Legend](#legend)
+- [Leyenda](#leyenda)
 - [What is Docker](#what-is-docker)
 - [Where to start](#where-to-start)
 - [Where to start (Windows)](#where-to-start-windows)
@@ -86,11 +70,11 @@ All the links are monitored and tested with a home baked [Node.js script](https:
 
 <!-- /TOC -->
 
-# Legend
+# Leyenda
 
-- Abandoned :skull:
+- Abandonado :skull:
 - Beta :construction:
-- Monetized :heavy_dollar_sign:
+- De Pago :heavy_dollar_sign:
 
 # What is Docker
 
