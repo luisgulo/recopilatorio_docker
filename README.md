@@ -12,10 +12,9 @@ Recopilatorio de Utilidades, Herramientas y documentacion para Docker
 
 - [Leyenda](#leyenda)
 - [Que es Docker](#que-es-docker)
-- [Where to start](#where-to-start)
-- [Where to start (Windows)](#where-to-start-windows)
-- [Projects](#projects)
-  - [Container Operations](#container-operations)
+- [Como empezar](#como-empezar)
+- [Proyectos](#proyectos)
+  - [Operar con Contenedores](#operar-con-contenedores)
     - [Container Composition](#container-composition)
     - [Deployment and Infrastructure](#deployment-and-infrastructure)
     - [Monitoring](#monitoring)
@@ -82,7 +81,7 @@ Recopilatorio de Utilidades, Herramientas y documentacion para Docker
 
 _Fuente:_ [What is Docker](https://www.docker.com/why-docker)
 
-# Where to start
+# Como empezar
 
 - [Benefits of using Docker](https://semaphoreci.com/blog/docker-benefits) for development and delivery, with a practical roadmap for adoption.
 - [Bootstrapping Microservices](https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform) by [Ashley Davis](https://twitter.com/ashleydavis75) - A practical and project-based guide to building applications with microservices, starts by building a Docker image for a single microservice and publishing it to a private container registry, finishes by deploying a complete microservices application to a production Kubernetes cluster.
@@ -99,35 +98,22 @@ _Fuente:_ [What is Docker](https://www.docker.com/why-docker)
 - [Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction) The landscape for container technologies is larger than just docker. Without a good handle on the terminology, It can be difficult to grasp the key differences between docker and (pick your favorites, CRI-O, rkt, lxc/lxd) or understand what the Open Container Initiative is doing to standardize container technology.
 - [The Docker Handbook](https://docker-handbook.farhan.dev/) An open-source book that teaches you the fundamentals, best practices and some intermediate Docker functionalities. The book is hosted on [fhsinchy/the-docker-handbook](https://github.com/fhsinchy/the-docker-handbook) and the projects are hosted on [fhsinchy/docker-handbook-projects](https://github.com/fhsinchy/docker-handbook-projects) repository.
 
-**Cheatsheets** by
+**Chuletas** by
 
 - [@eon01](https://github.com/eon01/DockerCheatSheet)
 - [@dimonomid](https://github.com/dimonomid/docker-quick-ref) (PDF)
 - [@JensPiegsa](https://github.com/JensPiegsa/docker-cheat-sheet)
 - [@wsargent](https://github.com/wsargent/docker-cheat-sheet) (Most popular)
 
-# Where to start (Windows)
-
-- [A Comparative Study of Docker Engine on Windows Server vs Linux Platform](https://collabnix.com/a-comparative-study-of-docker-engine-on-windows-server-vs-linux-platform/) Comparing the feature sets and implementations of Docker on Windows and Linux
-- [Build And Run Your First Docker Windows Server Container](https://www.docker.com/blog/build-your-first-docker-windows-server-container/) Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container
-- [Docker on Windows behind a firewall](https://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/) by [@kaitoedter](https://twitter.com/kaitoedter)
-- [Docker Quick Tutorial](https://vegibit.com/docker-quick-tutorial/) Introduces you to the official Getting Started Tutorial using Windows 10 and Hyper-V.
-- [Docker Reference Architecture: Modernizing Traditional .NET Framework Applications](https://success.mirantis.com/article/modernizing-traditional-dot-net-applications) - You will learn to identify the types of .NET Framework applications that are good candidates for containerization, the "lift-and-shift" approach to containerization.
-- [Docker with Microsoft SQL 2016 + ASP.NET](https://blog.alexellis.io/docker-does-sql2016-aspnet/) Demonstration running ASP.NET and SQL Server workloads in Docker
-- [Exploring ASP.NET Core with Docker in both Linux and Windows Containers](https://www.hanselman.com/blog/exploring-aspnet-core-with-docker-in-both-linux-and-windows-containers) Running ASP.NET Core apps in Linux and Windows containers, using [Docker for Windows][docker-for-windows]
-- [Running a Legacy ASP.NET App in a Windows Container](https://blog.sixeyed.com/dockerizing-nerd-dinner-part-1-running-a-legacy-asp-net-app-in-a-windows-container/) Steps for Dockerizing a legacy ASP.NET app and running as a Windows container
-- [Windows Containers and Docker: The 101](https://www.youtube.com/watch?v=N7SG2wEyQtM) :movie_camera: - A 20-minute overview, using Docker to run PowerShell, ASP.NET Core and ASP.NET apps
-- [Windows Containers Quick Start](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/) Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016
-
 ---
 
-# Projects
+# Proyectos
 
-- Moby = open source development
-- Docker CE = free product release based on Moby
-- Docker EE = commercial product release based on Docker CE.
+- Moby = desarrollo open source
+- Docker CE = producto gratuito basado en Moby
+- Docker EE = producto commercial basedo en Docker CE
 
-> Docker EE is on the same code base as Docker CE, so also built from Moby, with commercial components added, such as "docker data center / universal control plane"
+> Docker EE dispone del mismo código base que Docker CE, so also built from Moby, con componenentes comerciales incluidos, es como un "centro de datos docker / controlador universal"
 
 - [Moby](https://github.com/moby/moby)
 - [Docker Images](https://hub.docker.com)
@@ -136,7 +122,7 @@ _Fuente:_ [What is Docker](https://www.docker.com/why-docker)
 - [Docker Registry][distribution] (The Docker toolset to pack, ship, store, and deliver content)
 - [Docker Swarm](https://github.com/docker/swarm) (Swarm: a Docker-native clustering system)
 
-## Container Operations
+## Operar con Contenedores
 
 ### Container Composition
 
